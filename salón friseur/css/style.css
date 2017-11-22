@@ -104,8 +104,21 @@ div#headingThree {
   background-color: black;
 }
 
-.modal fade {
-  z-index: 99999;
+.modal-body {
+  background-color: orange;
+}
+
+.modal-header {
+  background-color: black;
+  color: white;
+}
+
+.modal-footer {
+  background-color: black;
+}
+
+button.btn.btn-default {
+  background-color: white;
 }
 
 #footer {
