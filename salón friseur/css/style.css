@@ -1,0 +1,143 @@
+nav.navbar.navbar-default.navbar-fixed-top {
+  background-color: black;
+  border: 1px 0 solid white;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top a {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'Merienda One', cursive;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top a:hover {
+  color: orange;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Merienda One', cursive;
+  margin: 70px 0 50px 0;
+}
+
+thead {
+  background-color: orange;
+}
+
+.table {
+  border: 1px orange solid;
+}
+
+td {
+  text-align: left;
+}
+
+#servicios {
+  background-color: white;
+  text-align: center;
+  margin: 30px;
+}
+
+#servicios h2 {
+  font-family: 'Merienda One', cursive;
+}
+
+#servicios img {
+  border-radius: 50%;
+  background-color: orange;
+  padding: 20px;
+}
+
+#servicios button {
+  background-color: orange;
+}
+
+#servicios button:hover {
+  border: 1px black solid;
+}
+
+#cita {
+  background-color: white;
+}
+
+.panel-body {
+  background-color: orange;
+}
+
+input.btn.btn-primary {
+    background-color: black;
+}
+
+#cita a {
+    color: black;
+    text-decoration: underline;
+}
+
+.table {
+  background-color: white;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+div#headingOne {
+    color: white;
+    background-color: black;
+}
+
+div#headingTwo {
+  color: white;
+  background-color: black;
+}
+
+div#headingThree {
+  color: white;
+  background-color: black;
+}
+
+.modal fade {
+  z-index: 99999;
+}
+
+#footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+#footer h2 {
+  color: white;
+  font-family: 'Merienda One', cursive;
+  margin-bottom: 0;
+}
+
+#footer h2:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.borde {
+  border: 1px solid white;
+}
+
+#footer h5 {
+  color: white;
+  font-family: 'Merienda One', cursive;
+}
+
+#footer li {
+  color: white;
+  list-style: none;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer a:hover {
+  color: orange;
+  text-decoration: none;
+}
