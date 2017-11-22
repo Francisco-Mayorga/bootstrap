@@ -16,9 +16,14 @@
   <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/animate.min.css" type="text/css">
   <!-- JavaScript files -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
 </head>
 
@@ -75,7 +80,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="img/header3.jpg"  alt="Foto del Salón Friseur2">
+        <img src="img/header3.jpg" alt="Foto del Salón Friseur2">
         <div class="carousel-caption">
 
         </div>
@@ -97,9 +102,9 @@
   <hr>
   <!--SERVICIOS-->
   <div id="servicios" class="container-fluid">
-    <h1>Nuestros Servicios</h1>
+    <h1 class="wow fadeIn">Nuestros Servicios</h1>
     <div class="row">
-      <div class="col-sm-4 col-md-4">
+      <div class="col-sm-4 col-md-4 wow fadeInLeft" data-wow-delay="1.8s">
         <img src="img/tijeras.svg" alt="tijeras">
         <h2>Corte de pelo</h2>
 
@@ -107,7 +112,7 @@
           irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <button class="btn btn-default btn-sm" type="button">ver galería de fotos</button>
       </div>
-      <div class="col-sm-4 col-md-4">
+      <div class="col-sm-4 col-md-4 wow fadeInLeft" data-wow-delay="1.4s">
         <img src="img/barba.svg" alt="barba">
         <h2>Barbería</h2>
 
@@ -116,7 +121,7 @@
         <button class="btn btn-default btn-sm" type="button">ver galería de fotos</button>
       </div>
 
-      <div class="col-sm-4 col-md-4">
+      <div class="col-sm-4 col-md-4 wow fadeInLeft" data-wow-delay="0.8s">
         <img src="img/pincel.svg" alt="pincel para tintar">
         <h2>Tinte</h2>
 
@@ -131,13 +136,13 @@
   <hr>
   <!--PIDE UNA CITA-->
   <div id="cita" class="container-fluid">
-    <h1>Pide una cita</h1>
+    <h1 class="wow fadeIn">Pide una cita</h1>
     <div class="row">
       <div class="col-sm-1 col-md-1">
       </div>
 
       <!--formulario-->
-      <div class="col-sm-4 col-md-4">
+      <div class="col-sm-4 col-md-4 wow fadeInLeft" data-wow-delay="0.5s">
         <div class="panel panel-default">
           <div class="panel-body">
             <input type="text" class="form-control" placeholder="Nombre y apellidos">
@@ -163,7 +168,7 @@
       <!--fin formulario-->
 
       <!--tabla horarios-->
-      <div class="col-sm-4 col-md-4">
+      <div class="col-sm-4 col-md-4 wow fadeInRight" data-wow-delay=0.5s>
         <div class="panel panel-default">
           <div class="panel-body">
             <table class="table table-bordered">
@@ -223,9 +228,9 @@
   <!--FAQ-->
 
   <div id="faq" class="container-fluid">
-    <h1>FAQ</h1>
+    <h1 class="wow fadeIn">FAQ</h1>
     <div class="row">
-      <div class="col-sm-8 col-md-8 col-sm-offset-2 col-md-offset-2">
+      <div class="col-sm-8 col-md-8 col-sm-offset-2 col-md-offset-2 wow fadeInUp" data-wow-delay="0.5s">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
@@ -347,6 +352,8 @@
     </div>
 
   </footer>
+
+  <!--FIN FOOTER-->
 
 </body>
 
