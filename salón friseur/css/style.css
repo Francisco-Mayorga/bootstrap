@@ -1,6 +1,6 @@
 nav.navbar.navbar-default.navbar-fixed-top {
   background-color: black;
-  border: 1px 0 solid white;
+  border-bottom: 1px solid white;
 }
 
 nav.navbar.navbar-default.navbar-fixed-top a {
@@ -10,6 +10,10 @@ nav.navbar.navbar-default.navbar-fixed-top a {
 
 nav.navbar.navbar-default.navbar-fixed-top a:hover {
   color: orange;
+}
+
+.navbar {
+  min-height: 0;
 }
 
 a.navbar-brand {
@@ -63,7 +67,7 @@ td {
 }
 
 button.btn.btn-default.btn-sm {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #cita {
