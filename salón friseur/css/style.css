@@ -169,3 +169,7 @@ button.btn.btn-default {
   color: orange;
   text-decoration: none;
 }
+
+ul {
+  padding-left: 0;
+}
